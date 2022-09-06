@@ -23,18 +23,18 @@ namespace PrimeraEXErencia
             Forma2D f2d = new Forma2D();             
             Random random = new Random();
             int r = (random.Next(3)+1);
-            if (r == 1)
-            {
-                f2d = new Triangulo(random.Next(20), random.Next(20), random.Next(20));
-            }
-            if(r == 2)
-            {
-                f2d = new Regtangulo(random.Next(20), random.Next(40));
-            }
-            if (r == 3)
-            {
-                f2d = new Circulo(random.Next(10));
-                
+            switch (r) {
+
+                case 1:
+            
+                    f2d = new Triangulo(random.Next(20), random.Next(20), random.Next(20));
+                    break;
+                case 2:            
+                    f2d = new Regtangulo(random.Next(20), random.Next(40));
+                    break;
+                case 3:
+                    f2d = new Circulo(random.Next(10));
+                    break;
             }
             ListaFormas.Add(f2d);
             actualitzarLista();
