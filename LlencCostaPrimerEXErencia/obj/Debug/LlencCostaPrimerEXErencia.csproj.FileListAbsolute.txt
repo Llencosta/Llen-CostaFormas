@@ -9,3 +9,14 @@ D:\curso.net\LlencCostaObjetosC#\LlencCostaPrimerEXErencia\LlencCostaPrimerEXEre
 D:\curso.net\LlencCostaObjetosC#\LlencCostaPrimerEXErencia\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.csproj.CoreCompileInputs.cache
 D:\curso.net\LlencCostaObjetosC#\LlencCostaPrimerEXErencia\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.exe
 D:\curso.net\LlencCostaObjetosC#\LlencCostaPrimerEXErencia\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.pdb
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\bin\Debug\LlencCostaPrimerEXErencia.exe.config
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\bin\Debug\LlencCostaPrimerEXErencia.exe
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\bin\Debug\LlencCostaPrimerEXErencia.pdb
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.csproj.AssemblyReference.cache
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.csproj.SuggestedBindingRedirects.cache
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\PrimeraEXErencia.Form1.resources
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.Properties.Resources.resources
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.csproj.GenerateResource.cache
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.csproj.CoreCompileInputs.cache
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.exe
+D:\curso.net\LlencCostaObjetosC#\Llen-CostaFormas\LlencCostaPrimerEXErencia\obj\Debug\LlencCostaPrimerEXErencia.pdb

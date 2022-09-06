@@ -20,28 +20,24 @@ namespace PrimeraEXErencia
 
         private void CrearForma_Click(object sender, EventArgs e)
         {
-             
+            Forma2D f2d = new Forma2D();             
             Random random = new Random();
             int r = (random.Next(3)+1);
             if (r == 1)
             {
-                Triangulo triangulo = new Triangulo(random.Next(20), random.Next(20), random.Next(20));
-                ListaFormas.Add(triangulo);
-                actualitzarLista();
-
+                f2d = new Triangulo(random.Next(20), random.Next(20), random.Next(20));
             }
             if(r == 2)
             {
-                Regtangulo rectangulo = new Regtangulo(random.Next(20), random.Next(40));
-                ListaFormas.Add(rectangulo);
-                actualitzarLista();
+                f2d = new Regtangulo(random.Next(20), random.Next(40));
             }
             if (r == 3)
             {
-                Circulo circulo = new Circulo(random.Next(10));
-                ListaFormas.Add(circulo);
-                actualitzarLista();
+                f2d = new Circulo(random.Next(10));
+                
             }
+            ListaFormas.Add(f2d);
+            actualitzarLista();
         }
 
         private void ListaDeFormas_SelectedIndexChanged(object sender, EventArgs e)
