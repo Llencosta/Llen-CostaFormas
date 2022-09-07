@@ -45,6 +45,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.CrearForma = new System.Windows.Forms.Button();
             this.ListaDeFormas = new System.Windows.Forms.ListBox();
+            this.AreaTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Lado1Triangulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lado2Triangulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lado2Rectangulo)).BeginInit();
@@ -190,17 +191,27 @@
             // 
             this.ListaDeFormas.FormattingEnabled = true;
             this.ListaDeFormas.ItemHeight = 16;
-            this.ListaDeFormas.Location = new System.Drawing.Point(503, 181);
+            this.ListaDeFormas.Location = new System.Drawing.Point(504, 175);
             this.ListaDeFormas.Name = "ListaDeFormas";
-            this.ListaDeFormas.Size = new System.Drawing.Size(120, 84);
+            this.ListaDeFormas.Size = new System.Drawing.Size(220, 196);
             this.ListaDeFormas.TabIndex = 17;
             this.ListaDeFormas.SelectedIndexChanged += new System.EventHandler(this.ListaDeFormas_SelectedIndexChanged);
+            // 
+            // AreaTotal
+            // 
+            this.AreaTotal.AutoSize = true;
+            this.AreaTotal.Location = new System.Drawing.Point(303, 354);
+            this.AreaTotal.Name = "AreaTotal";
+            this.AreaTotal.Size = new System.Drawing.Size(51, 16);
+            this.AreaTotal.TabIndex = 18;
+            this.AreaTotal.Text = "label10";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.AreaTotal);
             this.Controls.Add(this.ListaDeFormas);
             this.Controls.Add(this.CrearForma);
             this.Controls.Add(this.label9);
@@ -250,6 +261,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button CrearForma;
         private System.Windows.Forms.ListBox ListaDeFormas;
+        private System.Windows.Forms.Label AreaTotal;
     }
 }
 

@@ -26,7 +26,6 @@ namespace PrimeraEXErencia
             switch (r) {
 
                 case 1:
-            
                     f2d = new Triangulo(random.Next(20), random.Next(20), random.Next(20));
                     break;
                 case 2:            
@@ -36,25 +35,31 @@ namespace PrimeraEXErencia
                     f2d = new Circulo(random.Next(10));
                     break;
             }
-            ListaFormas.Add(f2d);
-            actualitzarLista();
+            if (f2d.CalculArea() > 0)
+            {
+                ListaFormas.Add(f2d);
+                actualitzarLista();
+            }
         }
 
         private void ListaDeFormas_SelectedIndexChanged(object sender, EventArgs e)
         {
-            ListaFormas.RemoveAt(ListaDeFormas.SelectedIndex);
-            actualitzarLista();
-
-
+            if (ListaDeFormas.SelectedIndex > -1) {
+                ListaFormas.RemoveAt(ListaDeFormas.SelectedIndex);
+                actualitzarLista();
+            }
         }
 
         private void actualitzarLista()
         {
+            int area = 0;
             ListaDeFormas.Items.Clear();
             for (int i = 0; i < ListaFormas.Count; i++)
             {
                 ListaDeFormas.Items.Add(ListaFormas[i].CalculArea().ToString());
+                area += (int) ListaFormas[i].CalculArea(); 
             }
+            AreaTotal.Text = "La area total es: " + area;
         }
     }
 }
